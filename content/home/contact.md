@@ -48,7 +48,7 @@ content:
       # name: DM Me
       link: 'https://twitter.com/yidgao'
     - icon: instagram
-      icon_pack: fas
+      icon_pack: fab
       # name: Zoom Me
       link: 'https://www.instagram.com/helecomika'
 
