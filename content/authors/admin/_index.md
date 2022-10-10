@@ -78,7 +78,7 @@ highlight_name: true
 ---
 
 I'm a mechanical engineering master's student at ETH Zurich, Switzerland.
-Prior to that, I received my bachelor's degree in Engineering Mechanics with China National Scholarship at Tongji University, China.
+Prior to that, I received my bachelor's degree in Engineering Mechanics at Tongji University, China.
 
 
 My interest in robot perception and computer vision was sparked by the 2021 ETH Robotics Summer School and numerous courses, and it was later bolstered by projects with RSL and CVG on volumetric mapping, offline Python SLAM, and 3D line reconstruction.
