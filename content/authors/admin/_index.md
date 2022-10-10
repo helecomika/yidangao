@@ -77,8 +77,16 @@ email: ''
 highlight_name: true
 ---
 
-Alice Bighetti is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I'm a mechanical engineering master's student at ETH Zurich, Switzerland.
+Prior to that, I received my bachelor's degree in Engineering Mechanics with China National Scholarship at Tongji University, China.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+My interest in robot perception and computer vision was sparked by the 2021 ETH Robotics Summer School and numerous courses, and it was later bolstered by projects with RSL and CVG on volumetric mapping, offline Python SLAM, and 3D line reconstruction.
+
+
+My current research interest focuses on incorporating deep learning approaches into SLAM and 3D reconstruction. 
+
+
+{{< icon name="download" pack="fas" >}} For more information, please refer to my latest {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+
+<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
