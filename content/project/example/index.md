@@ -9,7 +9,10 @@ date: '2022-10-12T00:00:00Z'
 external_link: ''
 
 image:
-  caption: 3D Line Reconstruction from SfM Cloud
+  caption: 3D Line Reconstruction
+  focal_point: Smart
+image:
+  caption: 3D Line Reconstruction
   focal_point: Smart
 
 # links:
