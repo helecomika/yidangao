@@ -20,7 +20,7 @@ image:
 #     url: https://twitter.com/georgecushen
 url_code: ''
 url_pdf: ''
-url_slides: ''
+url_slides: 'https://1drv.ms/p/s!AlfyQGIljYXOd_wqYrThF9uT-bQ?e=uWHDRl&nav=eyJzSWQiOjM1OSwiY0lkIjo0NDgzMzY2ODF9'
 url_video: ''
 
 # Slides (optional).
@@ -28,7 +28,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+# slides: example
 ---
 
 3D line reconstruction is an useful and effective alternative of the conventional point-based reconstruction, especially for the textureless man-made scenes. Line triangulation however, suffers from many ill-posed problems like degenerated cases
