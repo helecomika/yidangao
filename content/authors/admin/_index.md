@@ -10,7 +10,7 @@ last_name: Gao
 superuser: true
 
 # Role/position/tagline
-role: Master student in ETH Zurich
+role: Master student in Mechanical Engineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -23,8 +23,8 @@ bio: My research interests include SLAM, 3D reconstruction and robot perception.
 # Interests to show in About widget
 interests:
   - SLAM
-  - 3D reconstruction
-  - robot perception
+  - 3D Reconstruction
+  - Robot Perception
 
 # Education to show in About widget
 education:

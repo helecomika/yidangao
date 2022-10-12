@@ -27,10 +27,12 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Deep Learning
-      tag: Deep Learning
-    - name: Other
-      tag: Demo
+    - name: SLAM
+      tag: SLAM
+    - name: 3D Reconstruction
+      tag: 3D
+    - name: Robot Perception
+      tag: robot
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
