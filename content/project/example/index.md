@@ -11,9 +11,7 @@ external_link: ''
 image:
   caption: 3D Line Reconstruction
   focal_point: Smart
-image:
-  caption: 3D Line Reconstruction
-  focal_point: Smart
+
 
 # links:
 #   - icon: twitter
@@ -30,7 +28,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: sp_pre
+slides: example
 ---
 
 3D line reconstruction is an useful and effective alternative of the conventional point-based reconstruction, especially for the textureless man-made scenes. Line triangulation however, suffers from many ill-posed problems like degenerated cases
