@@ -20,7 +20,7 @@ image:
 #     url: https://twitter.com/georgecushen
 url_code: ''
 url_pdf: ''
-url_slides: 'https://1drv.ms/p/s!AlfyQGIljYXOd_wqYrThF9uT-bQ?e=uWHDRl&nav=eyJzSWQiOjM1OSwiY0lkIjo0NDgzMzY2ODF9'
+url_slides: 'https://docs.google.com/presentation/d/1Rx4WzfT4DabkQ8hx0j0083zZKl9ZsGW5/edit?usp=sharing&ouid=101736090028508638112&rtpof=true&sd=true'
 url_video: ''
 
 # Slides (optional).
