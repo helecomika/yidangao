@@ -77,11 +77,11 @@ email: ''
 highlight_name: true
 ---
 
-I'm a mechanical engineering master's student at ETH Zurich, Switzerland.
-Prior to that, I received my bachelor's degree in Engineering Mechanics at Tongji University, China.
+I'm a mechanical engineering master's student at [ETH Zurich](https://ethz.ch/), Switzerland.
+Prior to that, I received my bachelor's degree in Engineering Mechanics at [Tongji University](https://www.tongji.edu.cn/), China.
 
 
-My interest in robot perception and computer vision was sparked by the 2021 ETH Robotics Summer School and numerous courses, and it was later bolstered by projects with RSL and CVG on volumetric mapping, offline Python SLAM, and 3D line reconstruction.
+My interest in robot perception and computer vision was sparked by the 2021 [ETH Robotics Summer School](https://robotics-summerschool.ethz.ch/) and numerous courses, and it was later bolstered by projects with [Robotic Systems Lab (RSL)](https://rsl.ethz.ch/) and [Computer Vision and Geometry Group (CVG)](https://cvg.ethz.ch/) on volumetric mapping, offline Python SLAM, and 3D line reconstruction.
 
 
 My current research interest focuses on incorporating deep learning approaches into SLAM and 3D reconstruction. 
