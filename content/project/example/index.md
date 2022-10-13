@@ -9,7 +9,7 @@ date: '2022-10-12T00:00:00Z'
 external_link: ''
 
 image:
-  caption: 3D Line Reconstruction
+  caption: 3D Line Reconstruction Using SfM Cloud
   focal_point: Smart
 
 
