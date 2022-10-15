@@ -1,15 +1,15 @@
 ---
-title: COLMAPSLAM - An Offline Python SLAM Using COLMAP
-summary: Group Project at Computer Vision and Geometry Group, ETH Zurich
+title: Environment Mapping for Large-Scale Teleoperation
+summary: Project at Robotic Systems Lab, ETH Zurich
 tags:
-  - SLAM
+  - SLAM, 3D
 date: '2021-11-18T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
 image:
-  caption: COLMAPSLAM Pipeline
+  caption: Volumetric Mapping Pipeline
   focal_point: Smart
 
 
@@ -31,13 +31,7 @@ image:
 # slides: example
 ---
 
-We present COLMAPSLAM, an offline python SLAM using COLMAP that is robust, accurate, and highly extensible. The new system is built to leverage the advantages of both COLMAP and ORB-SLAM, the former known for its high-quality reconstruction and the latter for its efficient tracking of sequential data. 
+Teleoperation for large scale machinery is currently under development and most solutions rely on streaming high-quality raw images to the operator. However, there is no solution available that recovers the depth information which is one of the most important features for the human operator. 
 
 
-Starting with COLMAP pipeline built with components in Hloc and PyCOLMAP, our approach introduces the keyframe selection, covisibility graph, and loop closure to improve the speed and alleviate scale drift of the vanilla COLMAP. 
-
-
-Extensive experiments are conducted on standard SLAM benchmarks, including TUM-RGBD (indoor) and KITTI (outdoor) datasets. The results show that COLMAPSLAM achieves a much faster speed than COLMAP, better reconstruction against ORB-SLAM2, and the same level of trajectory accuracy as both.
-
-
-Our code package will soon be made available for the use and further development of the vision community.
+In this project, we propose a volumetric mapping pipeline by fusing real-time data from onboard camera and lidar, that creates a full 3D map around HEAP and renders a 3rd person view of the machine and its surroundings.
