@@ -3,7 +3,7 @@ title: COLMAPSLAM - An Offline Python SLAM Using COLMAP
 summary: Group Project at Computer Vision and Geometry Group, ETH Zurich
 tags:
   - SLAM
-date: '2022-10-15T00:00:00Z'
+date: '2021-11-18T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''

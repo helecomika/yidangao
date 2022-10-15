@@ -3,7 +3,7 @@ title: Improving 3D Line Reconstruction Using SfM Point Cloud
 summary: Semester Project at Computer Vision and Geometry Group, ETH Zurich
 tags:
   - 3D
-date: '2022-10-12T00:00:00Z'
+date: '2022-10-16T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
