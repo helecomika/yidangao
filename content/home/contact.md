@@ -45,11 +45,11 @@ content:
   contact_links:
     - icon: twitter
       icon_pack: fab
-      name: DM Me
+      name: Follow Me
       link: 'https://twitter.com/yidgao'
     - icon: instagram
       icon_pack: fab
-      name: Zoom Me
+      name: DM Me
       link: 'https://www.instagram.com/helecomika'
 
 design:
