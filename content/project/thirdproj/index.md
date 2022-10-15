@@ -1,17 +1,17 @@
 ---
-title: Environment Mapping for Large-Scale Teleoperation
-summary: Project at Robotic Systems Lab, ETH Zurich
+title: COLMAPSLAM - An Offline Python SLAM Using COLMAP
+summary: Group Project at Computer Vision and Geometry Group, ETH Zurich
 tags:
-- SLAM
-- 3D
-date: "2022-10-16T00:00:00Z"
+  - SLAM
+date: '2022-10-15T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
 image:
-  caption: Volumetric Mapping Pipeline
+  caption: COLMAPSLAM Pipeline
   focal_point: Smart
+
 
 # links:
 #   - icon: twitter
