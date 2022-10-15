@@ -10,7 +10,7 @@ headless: true
 weight: 66
 
 title: Gallery
-subtitle: Here is a collection of my photographs, see more on my [ins](https://www.instagram.com/helecomika/)
+subtitle: Here is a collection of my photographs, more on my [Instagram](https://www.instagram.com/helecomika/)
 
 design:
   columns: '1'
