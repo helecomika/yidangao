@@ -10,7 +10,7 @@ headless: true
 weight: 66
 
 title: Gallery
-subtitle:
+subtitle: Here is a collection of my photographs
 
 design:
   columns: '1'
