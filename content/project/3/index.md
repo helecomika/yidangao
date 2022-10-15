@@ -2,7 +2,7 @@
 title: Environment Mapping for Large-Scale Teleoperation
 summary: Project at Robotic Systems Lab, ETH Zurich
 tags:
-  - SLAM, 3D
+  - SLAM, 3D, robot
 date: '2021-11-18T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
