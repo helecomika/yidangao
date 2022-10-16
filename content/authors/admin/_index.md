@@ -30,7 +30,7 @@ interests:
 education:
   courses:
     - course: MEng in Mechanical Engineering
-      institution: ETH Zurich
+      institution: <a href="https://ethz.ch/" target="_blank" rel="noopener">ETH Zurich</a>
       year: 2020
     - course: BSc in Engineering Mechanics
       institution: Tongji University, summer exchange at Technion and PolyU
