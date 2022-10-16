@@ -89,4 +89,4 @@ My current research interest focuses on incorporating deep learning approaches i
 
 {{< icon name="download" pack="fas" >}} For more information, please refer to my latest {{< staticref "uploads/Yidan Resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 
-<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
+<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->     
