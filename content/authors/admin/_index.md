@@ -87,6 +87,6 @@ My interest in robot perception and computer vision was sparked by the 2021 [ETH
 My current research interest focuses on incorporating deep learning approaches into SLAM and 3D reconstruction. 
 
 
-{{< icon name="download" pack="fas" >}} For more information, please refer to my latest {{< staticref "uploads/Yidan Resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} For more information, please refer to my latest {{< staticref "uploads/Yidan Resume-1.pdf" "newtab" >}}resumé{{< /staticref >}}.
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->     
