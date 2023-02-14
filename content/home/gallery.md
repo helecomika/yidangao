@@ -16,6 +16,6 @@ design:
   columns: '1'
 ---
 
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=duyxm0zQQZhwbSMlTji2ilOGTIDFF_LiEIF2DiYBx7k"></script>
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=duyxm0zQQZhwbSMlTji2ilOGTIDFF_LiEIF2DiYBx7k&cl=ffffff&w=a"></script>
 
 {{< gallery album="demo" >}}
