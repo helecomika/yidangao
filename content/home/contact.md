@@ -52,6 +52,7 @@ content:
       name: DM Me
       link: 'https://www.instagram.com/helecomika'
 
+  clustrmaps:
   <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=duyxm0zQQZhwbSMlTji2ilOGTIDFF_LiEIF2DiYBx7k"></script>
 
 design:
