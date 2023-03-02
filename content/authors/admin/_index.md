@@ -31,10 +31,10 @@ education:
   courses:
     - course: MEng in Mechanical Engineering
       institution: ETH Zurich
-      year: 2020
+      year: 2023
     - course: BSc in Engineering Mechanics
       institution: Tongji University, summer exchange at Technion and PolyU
-      year: 2016
+      year: 2020
     # - course: BSc in Artificial Intelligence
     #   institution: Massachusetts Institute of Technology
     #   year: 2008
