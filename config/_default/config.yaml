@@ -73,3 +73,7 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+services:
+  googleAnalytics:
+    id: "your-tracking-id"  # Add your GA tracking ID here, or leave it blank.
+
