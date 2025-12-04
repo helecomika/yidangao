@@ -1,139 +1,82 @@
-/* ===== COLORS ===== */
-:root {
-    --bg: #FAF9FB;                  /* warm neutral with light purple tone */
-    --text: #2E2A32;                /* soft charcoal */
-    --accent: #7A5FFF;              /* soft lavender */
-    --accent-hover: #5E48D1;        /* slightly deeper purple */
-}
-
-/* ===== GLOBAL ===== */
-body {
-    margin: 0;
-    font-family: 'Georgia', serif;   /* academic serif */
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.55;
-    padding: 40px 20px;
-    max-width: 880px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-a {
-    color: var(--accent);
+/* ===== LATO FONT ===== */
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+  }
+  
+  /* ===== GLOBAL TEXT ===== */
+  body, td, th, tr, p, a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.45;
+  }
+  
+  body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background: #ffffff;
+    color: #333;
+  }
+  
+  /* ===== LINKS ===== */
+  a {
+    color: #1772d0;
     text-decoration: none;
-}
-a:hover {
-    color: var(--accent-hover);
-}
-
-/* ===== HEADER ===== */
-.header-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-bottom: 40px;
-}
-
-.header-text {
-    flex: 1 1 450px;
-    padding-right: 30px;
-}
-
-.header-photo img {
-    width: 220px;
-    border-radius: 12px; /* soft rounded rectangle */
-    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-}
-
-/* ===== TITLES ===== */
-h1 {
-    font-family: 'Inter', 'Helvetica Neue', sans-serif;
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-
-h2 {
-    font-family: 'Inter', 'Helvetica Neue', sans-serif;
-    font-size: 28px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
-/* ===== LINKS ROW ===== */
-.links {
-    margin-top: 12px;
-    font-size: 16px;
-}
-
-/* ===== PAPER ENTRY ===== */
-.paper {
-    display: flex;
-    margin-bottom: 32px;
-}
-
-/* ===== THUMBNAIL BOX (UNIFORM SIZE WITHOUT DISTORTION) ===== */
-.thumb-box {
-    width: 180px;               /* consistent width */
-    height: 120px;              /* consistent height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    background-color: #F4EFFB;  /* very light purple padding area */
-    border-radius: 6px;
-    margin-right: 20px;
-}
-
-/* Image inside the box — keeps original aspect ratio */
-.paper-thumb {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-    border-radius: 6px;     /* optional, keeps soft shape */
-    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-}
-
-/* ===== PAPER TEXT ===== */
-.paper-text {
-    flex: 1;
-}
-
-.paper-title {
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
+  }
+  a:hover {
+    color: #f09228;
+  }
+  
+  /* ===== TITLES ===== */
+  .name {
+    font-size: 34px;
+    font-weight: 600;
     margin: 0;
-}
-
-.paper-authors {
-    margin: 6px 0 10px 0;
+    padding-top: 10px;
+  }
+  
+  h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  
+  .papertitle {
     font-size: 15px;
-}
-
-.paper-desc {
-    margin-top: 6px;
-    font-size: 15px;
-}
-
-/* ===== MOBILE ===== */
-@media (max-width: 700px) {
-    .header-container {
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-
-    .header-text {
-        padding-right: 0;
-    }
-
-    .paper {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .thumb-box {
-        margin-right: 0;
-        margin-bottom: 12px;
-    }
-}
+    font-weight: 700;
+  }
+  
+  strong {
+    font-weight: 700;
+  }
+  
+  /* ===== HIGHLIGHT ===== */
+  .highlight {
+    background-color: #ffffd0;
+  }
+  
+  /* Makes images not overflow on mobile */
+  img {
+    max-width: 100%;
+  }
+  
