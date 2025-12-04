@@ -1,0 +1,122 @@
+/* ===== COLORS ===== */
+:root {
+    --bg: #FAF9FB;                  /* warm neutral with light purple tone */
+    --text: #2E2A32;                /* soft charcoal */
+    --accent: #7A5FFF;              /* soft lavender */
+    --accent-hover: #5E48D1;        /* slightly deeper purple */
+}
+
+/* ===== GLOBAL ===== */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;   /* academic serif */
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.55;
+    padding: 40px 20px;
+    max-width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--accent-hover);
+}
+
+/* ===== HEADER ===== */
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header-text {
+    flex: 1 1 450px;
+    padding-right: 30px;
+}
+
+.header-photo img {
+    width: 220px;
+    border-radius: 12px; /* soft rounded rectangle */
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+/* ===== TITLES ===== */
+h1 {
+    font-family: 'Inter', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Inter', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* ===== LINKS ROW ===== */
+.links {
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+/* ===== PAPER ENTRY ===== */
+.paper {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.paper-thumb {
+    width: 180px;
+    height: auto;
+    border-radius: 6px;
+    margin-right: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.paper-text {
+    flex: 1;
+}
+
+.paper-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.paper-authors {
+    margin: 6px 0 10px 0;
+    font-size: 15px;
+}
+
+.paper-desc {
+    margin-top: 6px;
+    font-size: 15px;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 700px) {
+    .header-container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .header-text {
+        padding-right: 0;
+    }
+
+    .paper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paper-thumb {
+        margin-bottom: 12px;
+    }
+}
