@@ -72,14 +72,30 @@ h2 {
     margin-bottom: 32px;
 }
 
-.paper-thumb {
-    width: 180px;
-    height: auto;
+/* ===== THUMBNAIL BOX (UNIFORM SIZE WITHOUT DISTORTION) ===== */
+.thumb-box {
+    width: 180px;               /* consistent width */
+    height: 120px;              /* consistent height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #F4EFFB;  /* very light purple padding area */
     border-radius: 6px;
     margin-right: 20px;
+}
+
+/* Image inside the box — keeps original aspect ratio */
+.paper-thumb {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    border-radius: 6px;     /* optional, keeps soft shape */
     box-shadow: 0 3px 10px rgba(0,0,0,0.05);
 }
 
+/* ===== PAPER TEXT ===== */
 .paper-text {
     flex: 1;
 }
@@ -116,7 +132,8 @@ h2 {
         align-items: center;
     }
 
-    .paper-thumb {
+    .thumb-box {
+        margin-right: 0;
         margin-bottom: 12px;
     }
 }
