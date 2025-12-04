@@ -150,3 +150,18 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+/* Force all link colors to your purple palette */
+a,
+a:link,
+a:visited,
+.papertitle,
+.papertitle:link,
+.papertitle:visited {
+    color: #7A6FA1 !important;   /* light gray-purple */
+}
+
+a:hover,
+.papertitle:hover {
+    color: #5D5383 !important;   /* deeper purple */
+}
